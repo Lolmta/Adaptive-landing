@@ -1,0 +1,489 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin:0 auto;
+  position: relative;
+}
+
+h1{
+	max-width: 220px;
+    margin: 0 auto;
+    color: #363636;
+}
+
+
+h2,h3{
+	color: #363636;
+	font-weight: bold;
+
+}
+
+span{
+	color: #0078AA;
+}
+
+.fa-heartbeat,
+.fa-medkit,
+.fa-stethoscope{
+	font-size:30px;
+}
+
+
+.fa-arrow-circle-up{
+	font-size:50px;
+	color: #0078AA;
+	position: fixed;
+    right: 20px;
+
+    text-align: center;
+    
+
+}
+
+
+.fa-arrow-circle-up:hover{
+	color: #fff;
+	background: #0078AA;
+	border-radius: 50%;
+}
+
+
+.heading_buttons{
+
+	    width: 30px;
+    height: 30px;
+    border: 2px solid #0078AA;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    background: #0078AA;
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    padding: 2px;
+}
+
+.heading_buttons:hover{
+	background:#fff;
+	font-size:30px;
+	color: #0078AA;
+}
+
+
+
+.header{
+	align-items: center;
+	position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.logo img{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.nav li, .nav a {
+
+  text-decoration: none;
+  display: inline-block; 
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+   }
+.nav ul{
+	padding: 0;
+}
+
+.nav  {
+    display: flex;
+    align-content: space-between;
+    align-content: space-around;
+    justify-content: center;
+}
+
+
+.nav_item:hover{
+color: #0078AA;
+}
+
+.heading_section{
+	padding-top: 70px;
+	background-image: url(../img/lady.jpg);
+	background-repeat: no-repeat;
+  background-position: center ;
+  background-position-x: 40%;
+}
+
+
+
+.heading_section_wrap{
+text-align: center;
+    padding: 20% 5%;
+
+}
+
+.heading_section_wrap p{
+	color: #828180;
+}
+
+
+
+.about img{
+	    width: 100%;
+}
+
+.about {
+	 text-align: center;
+}
+
+.about-heading p{
+	color:#18A0D9;
+}
+
+h2{
+	margin: 15px auto 0px;
+}
+
+h2+p{
+	 text-transform: uppercase;
+	
+	 font-size: 12px;
+}
+
+
+.help{
+	background-image: url(../img/services_bg.jpg);
+}
+
+.help_heading{
+	text-align: center;
+	padding: 5px;
+}
+
+.help article{
+  background-color: #fff; 
+  padding: 20px;
+}
+
+.help article p{
+	    font-size: 14px;
+
+}
+
+.help article h3{
+	    font-size: 16px;
+
+}
+
+.card_item{
+	padding: 10px 20px;
+}
+
+.section_wrap{
+	text-align: center;
+}
+
+.offer_card:nth-child(even){
+	color:  #0078aa;
+	background-color: #fff;
+	border:2px solid #0078aa;
+}
+
+
+.offer_card:nth-child(odd){
+	color:  #fff;
+	background-color: #47C9E5;
+	border:none;
+}
+
+.offer_card p:first-of-type{
+	    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.offer_card{
+	 margin: 10px;
+    padding: 15px;
+}
+
+
+.offer_card p:nth-child(3){
+	font-style: italic;
+	font-size: 14px;
+}
+
+.offer_card p{
+	font-size: 12px;
+	padding: 10px;
+}
+
+.offer_bt{
+	color: #0078aa;
+    background-color: #fff;
+    border: 2px solid #0078aa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+
+.offer_bt:hover {
+
+	color: #fff;
+    background-color: #0078aa;
+    border: 2px solid #0078aa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+
+.appointment img{
+	  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 35% 50%;
+}
+
+.appointment_content{
+	text-align: center;
+}
+
+input{
+	display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #EEEEEE;
+    width: 90%;
+    padding: 10px;
+    font-style: italic;
+
+}
+
+
+.footer {
+	text-align: center;
+	background-color: #363636;
+	color: #fff; 
+}
+
+.footer p{
+	margin: 0px auto;
+	    padding: 10px 0px;
+    font-size: 12px;
+}
+
+
+.submit_btn{
+
+	color: #fff;
+    background-color: #0078aa;
+    border: 2px solid #0078aa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 5%;
+
+}
+
+.submit_btn:hover{
+	color: #0078aa;
+    background-color: #fff;
+    border: 2px solid #0078aa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+.nav_item{
+	padding: 10px;
+}
+
+.header_wrap{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.logo{
+	padding-top: 10px;
+}
+
+.heading_section{
+	min-height: 500px;
+}
+
+.heading_section_wrap,
+h1{
+	text-align: left;
+	max-width:400px;
+	  }
+
+.fa-arrow-circle-up{
+	bottom: 10px;
+}
+
+.heading_section_wrap{
+ padding-left: 20px;
+}
+
+
+.about{
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.about h2{
+	    text-align: left;
+	    margin: 0;
+}
+
+.about-left{
+	width: 50%;
+}
+
+.about-right{
+	width: 50%;
+	text-align: left;
+}
+
+
+h2{
+	font-size: 30px;
+}
+
+.offer{
+	background-image:url(../img/pricing_bg.jpg);
+	background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer_cards{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.offer_card{
+	 margin: 0px;
+}
+
+.offer_card:nth-child(even){
+	padding: 20px 0px;
+	width: 30%;
+
+
+}
+
+
+.offer_card:nth-child(odd){
+	width: 29%;
+	
+}
+
+
+.cards{
+	display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.card_item{
+	    width: 30%;
+    padding: 10px;
+    margin: auto;
+}
+
+.appointment_wrap{
+	display: flex;
+}
+
+.appointment_content{
+	    text-align: left;
+	        width: 100%;
+}
+
+
+.appointment_content h2{
+	margin: 5%;
+}
+
+.appointment_content p{
+	margin: 5%;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 1280px) {
+
+	h1{
+		font-size: 30px;
+	}
+
+	.heading_section{
+	background-size: cover;
+	}
+
+	.heading_section_wrap{
+		padding: 150px 100px;
+	}
+
+	.about-right{
+		    max-width: 410px;
+	}
+
+	.about{
+		padding: 100px 0px 140px;
+	}
+
+	.cards,
+	.offer_cards
+	{
+		    max-width: 1170px;
+		    margin: 0 auto;
+	}
+
+	.appointment_img{
+		width: 50%;
+	}
+	.appointment_content{
+		width: 50%;
+
+	}
+
+
+	.offer {
+		    padding: 50px 0px;
+	}
+
+	input {
+		padding: 2%;
+	}
+
+}
